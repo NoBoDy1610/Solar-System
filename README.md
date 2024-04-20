@@ -2,8 +2,6 @@
 
 The Solar System Project is a simple web application that utilizes the Three.js library to visualize the planetary system. Users can explore an interactive model of the solar system, including the Sun, planets, and their moons.
 
-![Solar System](screenshot.png)
-
 ## Technologies
 
 The project was built using the following technologies:
