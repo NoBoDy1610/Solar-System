@@ -39,7 +39,7 @@ This project was created by [Nikodem Czubak](https://github.com/NoBoDy1610). For
 
 MIT License
 
-Copyright (c) [2024] [Nikodem Czubak]
+Copyright (c)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
