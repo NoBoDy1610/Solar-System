@@ -1,60 +1,86 @@
-# Solar System Project
+# 🌌 Three.js Solar System
 
-The Solar System Project is a simple web application that utilizes the Three.js library to visualize the planetary system. Users can explore an interactive model of the solar system, including the Sun, planets, and their moons.
+"Three.js Solar System" is an interactive 3D simulation of our solar system, built using Three.js. Explore the planets, their orbits, and rotations in a visually stunning environment with realistic textures and lighting.
 
-## Technologies
+---
 
-The project was built using the following technologies:
+## 🚀 **Features**
+- 🌞 **Realistic Solar System**: Includes the Sun, Mercury, Venus, Earth (with Moon), Mars, Jupiter, Saturn (with rings), Uranus, and Neptune.
+- 🪐 **Planet Orbits and Rotations**: Each planet orbits the Sun at a scaled speed and rotates on its axis.
+- 🌠 **Immersive Background**: A starry skybox created using a cube texture for a space-like experience.
+- 💡 **Lighting**: Point light source at the Sun's position to illuminate the planets.
+- 🎮 **Interactive Controls**: Use OrbitControls to zoom, pan, and rotate the camera around the scene.
+- 🔄 **Reset View**: Press the **Spacebar** to reset the camera to the default position.
 
-- JavaScript
-- Three.js
-- HTML
-- CSS
+---
 
-## Running
+## 📸 **Screenshots**
+*(You can add screenshots of your project here to showcase the visuals!)*
 
-To run the application, simply open the `index.html` file in any web browser. There is no need to install additional tools or libraries.
+---
 
-## Features
+## 💾 **How to Run the Project**
 
-The project offers the following features:
+1. Clone the repository:
+   ```bash
+   git clone <repo_url>
+   ```
+2. Ensure the project folder contains the following files:
+   - `index.html`
+   - `kostka.js` (main JavaScript file)
+   - `three.js` (Three.js library)
+   - `img/` folder with the following assets:
+     - Skybox textures: `sky_Back.bmp`, `sky_Bottom.bmp`, `sky_Front.bmp`, `sky_Left.bmp`, `sky_Right.bmp`, `sky_Top.bmp`
+     - Planet textures: `sun.jpg`, `mercury.jpg`, `venus.jpg`, `earth.jpg`, `moon.jpg`, `mars.jpg`, `jupiter.jpg`, `saturn.jpg`, `saturn_ring.png`, `uranus.jpg`, `neptun.jpg`
 
-- Display of an interactive model of the solar system.
-- Ability to rotate the view using the mouse.
-- Automatic movement of planets around the Sun.
+3. Open `index.html` in a modern web browser (Chrome, Firefox, etc.).
 
-## Development
+**Note**: The project uses an external dependency (`OrbitControls.js`) loaded via CDN. Ensure you have an active internet connection for the controls to work.
 
-Future enhancements planned for the project include:
+---
 
-- Adding additional planets and their moons.
-- Improving user interaction.
-- Implementing information about individual objects.
+## 🌟 **Technologies Used**
+- **Three.js**: For 3D rendering and scene management.
+- **JavaScript**: Core logic for planet creation, animation, and controls.
+- **HTML5**: Basic structure of the webpage.
+- **CSS**: Minimal styling to ensure a full-screen canvas.
 
-## Author
+---
 
-This project was created by [Nikodem Czubak](https://github.com/NoBoDy1610). For information about my other projects, visit my [GitHub profile](https://github.com/NoBoDy1610).
+## 🎮 **Controls**
+- **Mouse**:
+  - Left-click and drag to rotate the view.
+  - Scroll to zoom in/out.
+  - Right-click and drag to pan.
+- **Keyboard**:
+  - Press **Spacebar** to reset the camera to the default position (z = 200, looking at the Sun).
 
-## License
+---
 
-MIT License
+## 🪐 **Project Details**
+- **Planets**: Each planet is created using `SphereGeometry` with a `MeshPhongMaterial` for realistic lighting and textures.
+- **Rings**: Saturn's ring is implemented using `RingGeometry` with a custom texture.
+- **Orbits**: Planets are grouped using `THREE.Group` to simulate orbital motion around the Sun.
+- **Rotations**: Each planet rotates on its axis at a unique speed, scaled for visual effect.
+- **Skybox**: A cube texture is used to create a starry background, enhancing the space theme.
 
-Copyright (c)
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 📝 **Author**
+This project was created as a learning exercise in 3D graphics and animation using Three.js.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+📬 **Questions or Contributions?** Feel free to open an issue or submit a pull request in the repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+---
+
+## 🌠 **Future Enhancements**
+- Add more moons for planets like Jupiter and Saturn.
+- Implement realistic orbital paths (elliptical orbits).
+- Add labels or tooltips for planets on hover.
+- Include a UI to toggle planet visibility or adjust simulation speed.
+
+---
+
+🌟 **Enjoy exploring the Solar System!** 🪐✨
+
+---
