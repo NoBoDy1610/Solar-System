@@ -23,7 +23,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone <repo_url>
+   git clone https://github.com/NoBoDy1610/Solar-System.git
    ```
 2. Ensure the project folder contains the following files:
    - `index.html`
